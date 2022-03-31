@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:mis_parking_app/parking_spot.dart';
-import 'package:mis_parking_app/parking_spot_service.dart';
+import 'package:mis_parking_app/models/parking_spot.dart';
+import 'package:mis_parking_app/screens/search.dart';
+import 'package:mis_parking_app/services/parking_spot_service.dart';
 import 'package:provider/provider.dart';
 
-import 'locator_service.dart';
+import 'services/locator_service.dart';
 
 void main() => runApp(MyApp());
 
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        // home: Search(),
+        home: Search(),
       ),
     );
   }

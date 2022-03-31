@@ -3,7 +3,7 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert' as convert;
 
-import 'package:mis_parking_app/parking_spot.dart';
+import 'package:mis_parking_app/models/parking_spot.dart';
 
 class ParkingSpotsService {
   final key = 'YOUR_KEY';

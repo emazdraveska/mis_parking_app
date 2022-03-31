@@ -1,5 +1,5 @@
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:mis_parking_app/geometry.dart';
+import 'package:mis_parking_app/models/geometry.dart';
 
 class ParkingSpot{
   final String name;
